@@ -1,6 +1,6 @@
-var Uspto = require('../');
+const Uspto = require('../');
 
-var options = {
+const options = {
   query: 'IN/KANG-HO-FAN'
 };
 
