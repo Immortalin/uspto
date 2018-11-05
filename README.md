@@ -43,7 +43,7 @@ Uspto.listPatents(options).then(function (data) {
 
 Retrieves a list of up to 50 patents/grants based on:
 - `options` - required:
-  - `query` - [USPTO Query String](https://patft.uspto.gov/netahtml/PTO/search-adv.htm), required.
+  - `query` - [USPTO Query String](http://patft.uspto.gov/netahtml/PTO/search-adv.htm), required.
   - `page` - number, used when retrieving beyond the first 50 search results, defaults to 1.
 
 Returns a [promise](https://github.com/petkaantonov/bluebird#what-are-promises-and-why-should-i-use-them) with the following data:
